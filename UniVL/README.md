@@ -70,6 +70,9 @@ main_task_caption.py \
 --init_model ${INIT_MODEL}
 ```
 
+## Best Checkpoint
+You can download the checkpoint from [here](https://drive.google.com/file/d/1IDghRckFGAd2tAe1HcSvLBHXFzGiYmLC/view?usp=sharing).
+
 # Citation
 If you find UniVL useful in your work, you can cite the following paper:
 ```
