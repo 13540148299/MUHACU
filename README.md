@@ -55,7 +55,7 @@ pip install -r requirements.txt
 Download the Dataset files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
 
 ### Train tasks
-Please check [UniVL](UniVL) folder for details.
+Please check [end-2-end//UniVL](end-2-end/UniVL) folder for details.
 
 <br></br>
 ### ProphetNet
@@ -69,7 +69,7 @@ pip install tensorboardX==1.7
 Download the Dataset files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
 
 ### Train & Test tasks
-Please check [ProphetNet](ProphetNet) folder for details.
+Please check [end-2-end/ProphetNet](end-2-end/ProphetNet) folder for details.
 
 All logs and checkpoints will be saved under the experiments folder.
 
