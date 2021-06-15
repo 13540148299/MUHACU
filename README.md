@@ -9,7 +9,7 @@ The resource is designed to evaluate the ability of understanding the human indo
 
 Additional details on the resource and benchmark evaluation are available in this [report]().
 We proposed a retrieval & scoring based baseline via a multi-modal knowledge base containing meta information. The knowkedge base can be found [here](). 
-Another end-to-end baseline method combines a SOTA approach of video captioning, [UniVL](), and a sequence-to-sequence model, [Propehtnet]().
+Another end-to-end baseline method combines a SOTA approach of video captioning, [UniVL](https://arxiv.org/pdf/2002.06353.pdf), and a sequence-to-sequence model, [Propehtnet](https://arxiv.org/pdf/2001.04063.pdf).
 
 **Multi-modal Knowledge Base Retrieval & Scoring Framework**
 
