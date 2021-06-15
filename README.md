@@ -13,9 +13,9 @@ Another end-to-end baseline method combines a SOTA approach of video captioning,
 
 **Multi-modal Knowledge Base Retrieval & Scoring Framework**
 
-![system](/retrieval.pdf)
+![system](/retrieval.png)
 
-## IR+LE System and MLM Dataset 
+## Retrieval System and MUHACU Knowledge Base
 ### Requirements and Setup
 Python version >= 3.7
 
@@ -23,50 +23,57 @@ PyTorch version >= 1.4.0
 
 ``` bash
 # clone the repository
-git clone https://github.com/GOALCLEOPATRA/MLM.git
-cd MLM
+git clone https://github.com/MUHACU/MUHACU.git
+cd MUHACU
 pip install -r requirements.txt
 ```
 
-### Download MLM dataset
+### Download MUHACU Knowledge Base
 
-Download the dataset hdf5 files from [here](https://zenodo.org/record/3885753) and place them under the [data](data) folder.
+Download the Knowledge Base csv files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
+
+**Multi-modal End-to-End Hybrid Vision & Language Framework**
+
+![system](/e2e.png)
+
+## Hybrid VL System and MUHACU Dataset
+### UniVL
+### Requirements and Setup
+Python version >= 3.7
+
+PyTorch version >= 1.4.0
+
+``` bash
+# clone the repository
+git clone https://github.com/MUHACU/MUHACU.git
+cd MUHACU/UniVL
+pip install -r requirements.txt
+```
+
+###  Download MUHACU Dataset
+
+Download the Dataset files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
 
 ### Train tasks
-Multitask Learning (IR + LE)
-``` bash
-python train.py --task mtl
-```
+Please check [MUHACU/UniVL](MUHACU/UniVL) folder for details.
 
-Cross-modal retrieval task
-``` bash
-python train.py --task ir
-```
+<br></br>
+### ProphetNet
+### Requirements and Setup
+pip install torch==1.3.0
+pip install fairseq==v0.9.0
+pip install tensorboardX==1.7
 
-Location estimation task
-``` bash
-python train.py --task le
-```
+###  Download MUHACU Dataset
 
-For setting other arguments (e.g. epochs, batch size, dropout), please check [args.py](args.py).
+Download the Dataset files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
 
-### Test tasks
-Multi-task Learning (IR + LE)
-``` bash
-python test.py --task mtl
-```
-
-Cross-modal retrieval task
-``` bash
-python test.py --task ir
-```
-
-Location estimation task
-``` bash
-python test.py --task le
-```
+### Train & Test tasks
+Please check [MUHACU/ProphetNet](MUHACU/ProphetNet) folder for details.
 
 All logs and checkpoints will be saved under the experiments folder.
+
+<br></br>
 
 ## License
 The repository is under [MIT License](LICENSE).
