@@ -116,8 +116,8 @@ $DATA_DIR
 ```
 
 ### Checkpoints
-- ProphetNet-large-160GB (fine-tuned on MUHACU Human Action Forecasting Task) [[link]]()
-- ProphetNet-large-160GB (fine-tuned on MUHACU Human Action Planning Task) [[link]]()
+- ProphetNet-large-160GB (fine-tuned on MUHACU Human Action Forecasting Task) [[link]](https://drive.google.com/file/d/120X_ZJ6CpjhCj2Ko4ZBf6j_pfT7NzXuf/view?usp=sharing)
+- ProphetNet-large-160GB (fine-tuned on MUHACU Human Action Planning Task) [[link]](https://drive.google.com/file/d/1-Q8kJSfSvs_etxMaNxS_T_JY19LtKhYH/view?usp=sharing)
 
 
 ## TIPS:
