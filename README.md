@@ -69,7 +69,7 @@ pip install tensorboardX==1.7
 Download the Dataset files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
 
 ### Crowdsourcing pages
-Please check [crowdsourcing pages](crowdsourcing pages) folder for details.
+Please check [crowdsourcing pages/](crowdsourcing pages/) folder for details.
 
 ### Train & Test tasks
 Please check [end-2-end/ProphetNet](end-2-end/ProphetNet) folder for details.
