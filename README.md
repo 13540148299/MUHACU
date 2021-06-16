@@ -3,11 +3,11 @@
 ## About
 
 MUlti-modal Human ACtivity Understanding (MUHACU) is a dataset consisting of video frames and corresponding high-level intents, providing cloze based QA sets.
-The resource is designed to evaluate the ability of understanding the human indoor activity in multi-modal level. [The paper]() defines a benchmark evaluation consisting of the following tasks:
+The resource is designed to evaluate the ability of understanding the human indoor activity in multi-modal level. The paper defines a benchmark evaluation consisting of the following tasks:
 - Human Action Forecasting
 - Human Action Planning
 
-Additional details on the resource and benchmark evaluation are available in this [report]().
+Additional details on the resource and benchmark evaluation are available in this [report](supplementary_material.pdf).
 We proposed a retrieval & scoring based baseline via a multi-modal knowledge base containing meta information. The knowkedge base can be found [here](). 
 Another end-to-end baseline method combines a SOTA approach of video captioning, [UniVL](https://arxiv.org/pdf/2002.06353.pdf), and a sequence-to-sequence model, [Propehtnet](https://arxiv.org/pdf/2001.04063.pdf).
 
@@ -52,10 +52,10 @@ pip install -r requirements.txt
 
 ###  Download MUHACU Dataset
 
-Download the Dataset files from [here](https://zenodo.org/record/xxxx) and place them under the [xxx](xxx) folder.
+Download the Dataset files from [here](https://zenodo.org/record/xxxx).
 
 ### Train tasks
-Please check [end-2-end//UniVL](end-2-end/UniVL) folder for details.
+Please check [end-2-end/UniVL](end-2-end/UniVL) folder for details.
 
 <br></br>
 ### ProphetNet
